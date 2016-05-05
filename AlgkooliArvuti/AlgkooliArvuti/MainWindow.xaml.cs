@@ -29,5 +29,15 @@ namespace AlgkooliArvuti
 		{
 			MessageBox.Show("Tubli. Vajutasid nupule.");
 		}
+
+		private void button1_Click(object sender, RoutedEventArgs e)
+		{
+			textBlock.Visibility = Visibility.Hidden;
+			KolmnurgaSildid.Visibility = Visibility.Visible;
+
+			// Siit hakkab arvutamine
+
+
+		}
 	}
 }
